@@ -1,0 +1,192 @@
+.header {
+  height: 196px;
+  padding-top: 55px;
+  padding-bottom: 83px;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+  }
+
+  &__btn {
+    background-color: $vlb;
+    color: $db;
+    transition: all 0.5s;
+  }
+  
+  &__btn:hover {
+    background: #162542;
+    color: $w;
+  }
+}
+
+.order {
+  position: relative;
+  &__inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &__inner-content {
+    width: 445px;
+    padding-top: 60px;
+  }
+
+  &__inner-title {
+    font-weight: 900;
+    margin-bottom: 24px;
+    font-size: 56px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: $db;
+  }
+
+  &__inner-text {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+
+  &__inner-links {
+    display: flex;
+    align-items: center;
+    span {
+      text-transform: uppercase;
+    }
+  }
+
+  &__btn {
+    color: $w;
+    background-color: $o;
+    margin-right: 40px;
+    transition: all 0.5s;
+  }
+
+  &__btn:hover {
+    background: #FF9B62;
+  }
+
+  &__inner-img {
+    width: 540px;
+    height: 480px;
+    background-image: url(../img/desktop/image-keyboard.jpg);
+    background-size: cover;
+    border-radius: 20px;
+  }
+
+  &__inner-bg {
+    position: absolute;
+    top: 0;
+    right: -120px;
+  }
+}
+
+.descr {
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 138px;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__inner-bg {
+    position: absolute;
+    bottom: 30px;
+    left: -120px;
+  }
+
+  &__inner-1 {
+    width: 254px;
+    height: 480px;
+    background-color: $o;
+    border-radius: 20px;
+  }
+
+  &__inner-1-1 {
+    width: 254px;
+    height: 480px;
+    background-image: url(../img/desktop/image-phone-and-keyboard.jpg);
+    mix-blend-mode: multiply;
+    opacity: 0.75;
+    background-size: cover;
+    border-radius: 20px;
+  }
+
+  &__inner-2 {
+    width: 445px;
+    height: 480px;
+    background-image: url(../img/desktop/image-glass-and-keyboard.jpg);
+    background-size: cover;
+    border-radius: 20px;
+  }
+
+  &__inner-content {
+    width: 350px;
+    padding: 112px 0px 103px 95px;
+  }
+
+  &__inner-title {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: $db;
+    margin-bottom: 27px;
+  }
+
+  &__inner-text {
+    width: 256px;
+  }
+}
+
+.info {
+
+		&__inner {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+		}
+
+		&__inner-item {
+      width: 255px;
+      margin-bottom: 72px;
+		}
+
+		&__inner-bg {
+      width: 65px;
+      height: 65px;
+      border-radius: 16px;
+      background: #F16718;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 48px;
+		}
+
+		&__inner-title {
+      margin-bottom: 24px;
+      color: #162542;
+      font-weight: 900;
+      font-size: 24px;
+      line-height: 28px;
+		}
+
+		&__inner-text {
+		}
+}
+
+.footer {
+  padding-top: 56px;
+  padding-bottom: 39px;
+		&__text {
+      text-align: center;
+      span {
+        font-weight: 700;
+      }
+		}
+}

@@ -1,0 +1,250 @@
+@media (max-width: 800px) {
+  .wrapper {
+    max-width: 768px;
+  }
+
+  .container {
+    margin: 0 40px 0 39px;
+    max-width: 689px;
+  }
+
+  .header {
+    height: auto;
+    padding: 40px 0 62px 0;
+  }
+  .order {
+    &__inner-content {
+      width: 339px;
+      padding-bottom: 60px;
+    }
+
+    &__inner-title {
+      margin-bottom: 34px;
+      font-size: 48px;
+      line-height: 48px;
+    }
+
+    &__inner-text {
+      font-size: 16px;
+      margin-bottom: 39px;
+    }
+
+    &__btn {
+      margin-right: 37px;
+    }
+
+    &__inner-img {
+      width: 478px;
+      height: 425px;
+      position: absolute;
+      top: 0;
+      right: -157px;
+      background-image: url(../img/tablet/image-keyboard.jpg);
+      border-radius: 20px 0 0 20px;
+    }
+
+    &__inner-bg {
+      display: none;
+    }
+  }
+
+  .descr {
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 112px;
+    &__inner {
+      flex-wrap: wrap;
+    }
+
+    &__inner-bg {
+      display: none;
+    }
+
+    &__inner-1 {
+      width: 214px;
+      height: 320px;
+      border-radius: 20px;
+    }
+
+    &__inner-1-1 {
+      width: 214px;
+      height: 320px;
+      background-image: url(../img/tablet/image-phone-and-keyboard.jpg);
+    }
+
+    &__inner-2 {
+      height: 320px;
+      background-image: url(../img/tablet/image-glass-and-keyboard.jpg);
+    }
+
+    &__inner-content {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 72px 0 0 0;
+    }
+
+    &__inner-title {
+      width: 255px;
+      margin-bottom: 0px;
+    }
+
+    &__inner-text {
+      width: 398px;
+    }
+  }
+  .info {
+    &__inner-item {
+      width: 281px;
+    }
+
+    &__inner-bg {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 40px;
+    }
+
+    &__inner-title {
+      margin-bottom: 24px;
+      color: #162542;
+      font-weight: 900;
+      line-height: 28px;
+    }
+
+    &__inner-text {
+    }
+  }
+  .footer {
+    padding-top: 70px;
+    padding-bottom: 43px;
+  }
+}
+
+@media (max-width: 400px) {
+  .wrapper {
+    max-width: 375px;
+  }
+
+  .container {
+    margin: 0 auto;
+    max-width: 327px;
+  }
+
+  .btn {
+    width: 151px;
+    height: 48px;
+  }
+
+  .header {
+    padding: 23px 0 64px 0;
+  }
+  .order {
+    height: 681px;
+    &__inner-content {
+      width: 100%;
+      padding-top: 0;
+      padding-bottom: 64px;
+    }
+
+    &__inner-title {
+      margin-bottom: 32px;
+    }
+
+    &__inner-text {
+      font-size: 16px;
+      margin-bottom: 32px;
+    }
+
+    &__btn {
+      margin-right: 32px;
+    }
+
+    &__inner-img {
+      width: 372px;
+      height: 331px;
+      top: auto;
+      bottom: 0;
+      right: auto;
+      left: 24px;
+      background-image: url(../img/mobile/image-keyboard.jpg);
+    }
+  }
+
+  .descr {
+    position: relative;
+    padding-top: 24px;
+    padding-bottom: 30px;
+    margin-bottom: 112px;
+    
+    &__inner {
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    &__inner-1 {
+      width: 129px;
+      height: 193px;
+      position: absolute;
+      left: -22px;
+      top: 24px;
+      border-radius: 0px 20px 20px 0px;
+    }
+
+    &__inner-1-1 {
+      width: 129px;
+      height: 193px;
+      background-image: url(../img/mobile/image-phone-and-keyboard.jpg);
+    }
+
+    &__inner-2 {
+      width: 220px;
+      height: 193px;
+      background-image: url(../img/mobile/image-glass-and-keyboard.jpg);
+    }
+
+    &__inner-content {
+      width: 100%;
+      display: block;
+      text-align: center;
+      padding: 75px 0 0 0;
+    }
+
+    &__inner-title {
+      width: 255px;
+      margin: 0 auto 24px;
+    }
+
+    &__inner-text {
+      width: 100%;
+    }
+  }
+  .info {
+    &__inner-item {
+      width: 281px;
+    }
+
+    &__inner-bg {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 40px;
+    }
+
+    &__inner-title {
+      margin-bottom: 24px;
+      color: #162542;
+      font-weight: 900;
+      line-height: 28px;
+    }
+
+    &__inner-text {
+    }
+  }
+  .footer {
+    padding-top: 70px;
+    padding-bottom: 43px;
+  }
+}
